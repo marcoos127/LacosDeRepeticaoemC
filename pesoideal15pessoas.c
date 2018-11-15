@@ -25,7 +25,8 @@ int main(int argc, char *argv[]) {
 		printf("Seu ideal é: %2.f \n",pesoid);
 	}
 	
-	printf ("Digite o numero da pessoa: 1 a 15\n");
+	pessoa = pessoa + 1;
+	printf ("Digite o numero da pessoa: %d a 15\n", pessoa);
 	scanf("%d", &pessoa);
 }
 	return 0;

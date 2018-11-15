@@ -11,9 +11,7 @@ int main(int argc, char *argv[]){
 	float n1,n2,n3,n4;
 	float soma,media;
 	
-	printf ("Digite o numero do aluno: 1 a 7\n");
-	scanf ("%d", &alunos);
-	
+	alunos = 1;
 	while(alunos <= 7){
 	
 	printf ("\nDigite a nota do primeiro bimestre: ");
@@ -28,7 +26,9 @@ int main(int argc, char *argv[]){
 	media = soma/4;
 	printf ("A media do aluno foi de %f",media);
 	
-	printf ("\nDigite o numero do aluno: 1 a 7\n");
+	alunos = alunos + 1;
+	
+	printf ("\nDigite o numero do aluno: %d a 7\n", alunos);
 	scanf ("%d", &alunos);
 }
 	return 0;

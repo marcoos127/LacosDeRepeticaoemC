@@ -8,8 +8,8 @@ int main(int argc, char *argv[]){
 	
 	int numret;
 	float a,b,area;
-	numret = 1;
 	
+	numret = 1;
 	while(numret <= 10){
 	
 	printf ("\nDigite a base do retangulo: ");
@@ -19,7 +19,8 @@ int main(int argc, char *argv[]){
 	area = b * a;
 	printf ("\nA area do seu retangulo e de: %f",area);
 	
-	printf("\nDigite o numero do retangulo: 2 a 10\n");
+	numret = numret + 1;
+	printf("\nDigite o numero do retangulo: %d a 10\n", numret);
 	scanf ("%d", &numret);
 	
 }
