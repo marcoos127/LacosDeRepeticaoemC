@@ -16,7 +16,7 @@ int main(int argc, char *argv[]){
 	printf ("\nDigite a altura do triangulo: ");
 	scanf ("%f", &a);
 	area = b * a/2;
-	printf ("\nA area do seu retangulo e de: %f\n",area);
+	printf ("\nA area do seu triângulo e de: %f\n",area);
 	printf("\n----------------- ----------------");
 	n = n+1;
 }while(n <=8);
